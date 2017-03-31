@@ -199,5 +199,76 @@ public class Questions {
         a.add("Insertion sort of the records"); // 8
         b.add("Selection sort of the records"); // 8
         c.add("Merge sort of the records"); // 8
+        
+         questions.add("Refer to the following code segment:\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "int n = < some positive integer >;\n" +
+                "\n" +
+                "for (int i = n; i > 0; i -= 2)\n" +
+                "\n" +
+                "{\n" +
+                "\n" +
+                "process(i);\n" +
+                "\n" +
+                "}\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "In terms of n, how many times will process(i) be executed?"); // 9
+        a.add("n if n is even and n + 1 if n is odd"); // 9
+        b.add("2n if n is even and 2n -1 if n is odd"); // 9
+        c.add("n/2 if n is even and 1 +  if n/2 is odd"); // 9
+        d.add("2n if n is even and 2n  +1 if n is odd"); // 9
+        e.add("n/2 if n is even and 1 -  if n/2 is odd"); // 9
+        correct.add("C"); // 9
+        questions.add("A square matrix is declared as\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "int[][] mat = new int[SIZE][SIZE];\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "where SIZE is an appropriate integer constant. Consider the following method:\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "public static void sum(int[][] mat)\n" +
+                "\n" +
+                "{\n" +
+                "\n" +
+                "int total = 0;\n" +
+                "\n" +
+                "for (int r = 0; r < mat.length; r++)\n" +
+                "\n" +
+                "for (int c = 0; c <= r; c++)\n" +
+                "\n" +
+                "total += mat[r][c];\n" +
+                "\n" +
+                "return total;\n" +
+                "\n" +
+                "}\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "If mat is initialized to be\n\n" +
+                "\n" +
+                "If mat is initialized to be\n" +
+                "\n" +
+                "2  6  3\n" +
+                "\n" +
+                "4  5  1\n" +
+                "\n" +
+                "7  1  2\n\n" +
+                "\n" +
+                "what value will be returned by a call to sum(mat)?"); // 10
+        a.add("9"); // 10
+        b.add("15"); // 10
+        c.add("18"); // 10
+        d.add("21"); // 10
+        e.add("14"); // 10
+        correct.add("D"); // 10
     }
 }
