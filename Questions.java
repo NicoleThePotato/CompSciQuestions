@@ -270,5 +270,51 @@ public class Questions {
         d.add("21"); // 10
         e.add("14"); // 10
         correct.add("D"); // 10
+        
+                questions.add("Suppose the characters 0, 1, ... , 8, 9, A, B, C, D, E, F are used to represent a" +
+                " hexadecimal (base-16) number. Here A = 10, B = 11,..., F = 15. Which of the following hexadecimal " +
+                "numbers represents the base-10 integer 93?"); // 18
+        a.add("52"); // 18
+        b.add("D3"); // 18
+        c.add("5D"); // 18
+        d.add("F3"); // 18
+        e.add("7C3"); // 18
+        correct.add("C"); // 18
+        questions.add("Suppose a and b are boolean variables. The expression\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "!a && !b\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "will evaluate to false whenever\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "I) a and b are both false.\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                " II) a is false and b is true.\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                " II) a is true and b is false.\n" +
+                "\n"); // 19
+        a.add("I only"); // 19
+        b.add("II only"); // 19
+        c.add("III only"); // 19
+        d.add("II and III only"); // 19
+        e.add("I, II, and III"); // 19
+        correct.add("D"); // 19
+        questions.add("Which is a false statement about static methods?"); // 20
+        a.add("A static method can use a static variable in its implementation code"); // 20
+        b.add("If a class is such that it doesn't make sense to ever create an object of the class"); // 20
+        c.add("All methods in a driver class that has a man method should be static"); // 20
+        d.add("A static method cannot be invoked by an object of a class") // 20
+        e.add("Accessor methods in an object class may be static, depending on the value that’s being accessed"); // 20
+        correct.add("E"); // 20
+    }
     }
 }
