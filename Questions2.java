@@ -68,41 +68,23 @@ public class Questions {
         e.add("An error will be output"); // 3
         correct.add("B"); // 3
         questions.add("Consider the following code segment \n" +
-                "\n" +
-                "\n" +
-                "\n" +
-                "public class PiggyBank\n" +
-                "\n" +
+                "public class PiggyBank\n"  +
                 "{\n" +
-                "\n" +
                 "private double total;\n" +
                 "\n" +
                 "private boolean isFull;\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "//Increase total by amt.\n" +
                 "\n" +
                 "public void incrementTotal(double amt)\n" +
-                "\n" +
                 "{ /* implementation of incrementTotal */ }\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "//Change the value of isFull:\n" +
                 "\n" +
                 "//If its current value is true, change it to false.\n" +
-                "\n" +
                 "//If its current value is false, change it to true.\n" +
-                "\n" +
                 "public void changePiggyState()\n" +
-                "\n" +
                 "{ /* implementation of changePiggyState */ }\n" +
-                "\n" +
                 "//Constructors and other methods not shown.\n" +
-                "\n" +
                 "}" +
-                "\n" +
                 "\nAssuming that the PiggyBank class has an accessor method getTotal that returns total, which is a " +
                 "correct /* implementation of incrementTotal */?"); // 4
         a.add("return total + amt;"); // 4
@@ -120,23 +102,13 @@ public class Questions {
         e.add("double x = 20*Math.random  ( ) = 10;"); // 5
         correct.add("D"); // 5
         questions.add("Which best describes what the printSomething method below does?\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "public void printSomething(String s)\n" +
-                "\n" +
                 "{\n" +
-                "\n" +
                 "if (s.length() > 0)\n" +
-                "\n" +
                 "{\n" +
-                "\n" +
                 "System.out.print(s.substring(0, 1));\n" +
-                "\n" +
                 "printSomething(s.substring(1));\n" +
-                "\n" +
                 "}\n" +
-                "\n" +
                 "}"); // 6
         a.add("It prints string s"); // 6
         b.add("It prints string s in reverse order"); // 6
@@ -145,47 +117,25 @@ public class Questions {
         e.add("It prints only the last character of string s"); // 6
         correct.add("A"); // 6
         questions.add("Refer to the following method that finds the largest value in an array:\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "/** Precondition:  arr is initialized with int values.\n" +
-                "\n" +
                 " *  Postcondition: Returns the largest value in arr.\n" +
-                "\n" +
                 " */\n" +
-                "\n" +
                 "public static int findMax(int[] arr)\n" +
-                "\n" +
                 "{\n" +
-                "\n" +
                 "int max = /* some value */;\n" +
-                "\n" +
                 "int index = 0;\n" +
-                "\n" +
                 "while (index < arr.length)\n" +
-                "\n" +
                 "{\n" +
-                "\n" +
                 "if (arr[index] > max)\n" +
-                "\n" +
                 "max = arr[index];\n" +
-                "\n" +
                 "index++;\n" +
-                "\n" +
                 "}\n" +
-                "\n" +
                 "return max;\n" +
-                "\n" +
                 "}\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "Which replacement(s) for /* some value */ will always result in correct execution of the findMax " +
                 "method?" +
                 "\nI) Integer.MIN_VALUE" +
-                "\n" +
                 "II) Integer.MAX_VALUE\n" +
-                "\n" +
                 "III)  arr[0]"); // 7
         a.add("I only"); // 7
         b.add("II only"); // 7
@@ -201,21 +151,11 @@ public class Questions {
         c.add("Merge sort of the records"); // 8
         
          questions.add("Refer to the following code segment:\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "int n = < some positive integer >;\n" +
-                "\n" +
                 "for (int i = n; i > 0; i -= 2)\n" +
-                "\n" +
                 "{\n" +
-                "\n" +
                 "process(i);\n" +
-                "\n" +
                 "}\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "In terms of n, how many times will process(i) be executed?"); // 9
         a.add("n if n is even and n + 1 if n is odd"); // 9
         b.add("2n if n is even and 2n -1 if n is odd"); // 9
@@ -224,45 +164,21 @@ public class Questions {
         e.add("n/2 if n is even and 1 -  if n/2 is odd"); // 9
         correct.add("C"); // 9
         questions.add("A square matrix is declared as\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "int[][] mat = new int[SIZE][SIZE];\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "where SIZE is an appropriate integer constant. Consider the following method:\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "public static void sum(int[][] mat)\n" +
-                "\n" +
                 "{\n" +
-                "\n" +
                 "int total = 0;\n" +
-                "\n" +
                 "for (int r = 0; r < mat.length; r++)\n" +
-                "\n" +
                 "for (int c = 0; c <= r; c++)\n" +
-                "\n" +
                 "total += mat[r][c];\n" +
-                "\n" +
                 "return total;\n" +
-                "\n" +
                 "}\n" +
-                "\n" +
-                "\n" +
-                "\n" +
                 "If mat is initialized to be\n\n" +
-                "\n" +
                 "If mat is initialized to be\n" +
-                "\n" +
                 "2  6  3\n" +
-                "\n" +
                 "4  5  1\n" +
-                "\n" +
                 "7  1  2\n\n" +
-                "\n" +
                 "what value will be returned by a call to sum(mat)?"); // 10
         a.add("9"); // 10
         b.add("15"); // 10
